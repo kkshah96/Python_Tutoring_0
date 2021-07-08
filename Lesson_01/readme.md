@@ -1,6 +1,7 @@
-Technologies to look into:
+## Lesson Notes
 
-* Jupyer Notebooks (alternative IDE with additional capabilities)
+* PyCharm is an IDE (integrated development environment) that enables us to both write and execute code
+* Jupyer Notebooks (alternative IDE with additional capabilities) is something you can optionally look into
 
 Potential future projects:
 
