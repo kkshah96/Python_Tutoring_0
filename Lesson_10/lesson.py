@@ -3,7 +3,7 @@ high = 1000
 print("Please think of a number between {} and {}".format(low, high))
 input("Press input to start")
 
-num_guesses = 1 #They initialize it to 1 but I don't know why
+num_guesses = 1
 
 while True:
   guess = low + (high - low)//2
@@ -32,11 +32,12 @@ while True:
   # Alternatively: num_guesses += 1
   num_guesses = num_guesses + 1
           
+# Note: We started implementing binary search but this is WORK IN PROGRESS
 def binary_search(low_end, high_end, target_value)
-	midpoint = low_end + (high_end - low_end) // 2
+  #if this were to run only once, we could just do high_end // 2
+  midpoint = low_end + (high_end - low_end) // 2
   if midpoint != target_value:
      pass # To be continued
-    #if this were to run only once, we could just do high_end // 2
-
+    
       
  
