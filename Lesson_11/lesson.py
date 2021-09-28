@@ -2,7 +2,6 @@
 # 'target' is the number of which we are trying to find the INDEX
 
 def binary_search(sequence, target):
-  # TODO: Is there a way we can combine this 'while' satement with the 'if' statement on line 12?
   while True:
     # 'midpoint' is the INDEX of the middle element
     midpoint = len(sequence) // 2
