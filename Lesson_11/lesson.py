@@ -38,5 +38,6 @@ target = 7
 
 # TODO: Does this function call return the right number?
 result = binary_search(sequence, target)
+print(f"The location of {target} is {result})
   
   
